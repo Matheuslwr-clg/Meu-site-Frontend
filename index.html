@@ -3,45 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Política sem Gravata</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="topo">
-        <span class="logo"> Meu Site</span>
-        <nav class="menu">
-            <a href="index.html" class="ativo">Início</a>
-            <a href="sobre.html" class="ativo">Sobre</a>
-            <a href="contato.html" class="ativo">Contato</a>
+        <span class="logo">Política sem Gravata</span>
+        <nav class="menu" aria-label="Navegação principal">
+            <a href="index.html" class="ativo" aria-current="page">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
         </nav>
     </header>
     <main>
         <section class="hero">
-            <h1>Bem-Vindo ao meu site!</h1>
-            <p>Troque por uma frase sobre seu Site</p>
+            <h1>Política sem gravata</h1>
+            <p>Um olhar leve sobre política, debates e as ideias que aparecem pelo caminho.</p>
             <a href="contato.html" class="botao">
-                Fale comigo
+                Mande uma pauta
             </a>
         </section>
 
         <section class="cards">
             <article class="card">
-                <h2> Destaque 1</h2>
-                <p>Descreva algo importante do seu tema</p>
+                <h2>Debate na Band</h2>
+                <p>No domingo, 18 de outubro de 2026, Lula e Flávio Bolsonaro participaram de um debate na Band. Dois candidatos, muitos assuntos e um cronômetro para todos.</p>
             </article>
             <article class="card">
-                <h2> Destaque 1</h2>
-                <p>Mais um ponto para seu tema </p>
+                <h2>Pauta cheia</h2>
+                <p>Segurança, economia e saúde estiveram entre os temas. Com oportunidade de fala para os dois candidatos e suas considerações finais.</p>
             </article>
             <article class="card">
-                <h2> Destaque 1</h2>
-                <p>aqui terceiro destaque</p>
+                <h2>Sem torcida organizada</h2>
+                <p>A ideia aqui é falar sobre a campanha de cada candidato a presidencia, sem discriminação e tendo em mente que o voto é <strong>secreto</strong>.</p>
             </article>
+        </section>
+
+        <section class="conteudo">
+            <h2>Fotos dos candidatos</h2>
+            <p>Retratos ilustrativos; as fotos não foram feitas durante o debate.</p>
+            <div class="cards fotos">
+                <figure class="card">
+                    <img src="imagens/lula-retrato.jpg" alt="Retrato do Luiz Inácio Lula da Silva." width="960" height="1229" loading="lazy">
+                </figure>
+                <figure class="card">
+                    <img src="imagens/flavio-bolsonaro.jpg" alt="Flávio Bolsonaro dando entrevista a jornalistas no Senado." width="960" height="1437" loading="lazy">
+                </figure>
+            </div>
+        </section>
+
+        <section class="conteudo">
+            <h2>Para conferir</h2>
+            <p>O <a href="https://g1.globo.com/politica/noticia/2026/10/18/lula-e-flavio-bolsonaro-fazem-o-primeiro-debate.ghtml">G1 resumiu os temas do debate</a>. A <a href="https://www.band.com.br/nacional/pr/reveja-o-debate-da-band-completo-entre-lula-e-flavio-bolsonaro">Band disponibilizou a íntegra</a>.</p>
         </section>
     </main>
 
-<footer class-"rodape">
-    <p>Feito por Marins - Projeto FrontEnd</p>
-</footer>
+    <footer class="rodape">
+        <p>Feito por Matheus - Projeto Front-End</p>
+    </footer>
 </body>
 </html>
